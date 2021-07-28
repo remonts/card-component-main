@@ -8,6 +8,7 @@ body {
 }
 
 .retangle {
+    font-family: 'Inter', sans-serif;
     width: 900px;
     height: 350px;
     background: hsl(244, 38%, 16%);
@@ -18,12 +19,46 @@ body {
 }
 
 .text1 {
-    color: white;
-    margin: 10px;
-    padding: 10px;
-    display: flex;
+    color: hsl(0, 0%, 100%); 
+    font-size: 15px;
+    position: absolute;
+    left: 40px;
+    top: 50px;
 }
 
+.violet {
+    color: hsl(277, 64%, 61%);
+}
+
+.text2 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%); 
+    font-size: 12px;
+    position: absolute;
+    left: 40px;
+    top: 150px;
+}
+
+.text3 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%); 
+    position: absolute;
+    left: 40px;
+    top: 250px;
+}
+
+.image {
+    width: 450px;
+    height: 350px;
+    background-image: radial-gradient(rgba(0,0,0,0.1), hsl(277, 64%, 61%)), url(images/image-header-desktop.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+/*
 .image {
     position: absolute;
     right: 0;
@@ -33,16 +68,12 @@ body {
 .image img {
     height: 350px;
     border-radius: 0 5px 5px 0;
+    background-image: ;
 }
 
-
-
-/*
 .attribution {
     font-size: 11px; 
-    text-align: center;
-    background: violet;
-}
+    text-align
 
 .attribution a {
     color: hsl(228, 13%, 53%);  
