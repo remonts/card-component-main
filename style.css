@@ -32,19 +32,39 @@ body {
 
 .text2 {
     font-family: 'Lexend Deca', sans-serif;
-    color: hsl(0, 0%, 100%); 
+    color: hsla(0, 0%, 100%, 0.75);
     font-size: 12px;
     position: absolute;
     left: 40px;
-    top: 150px;
+    top: 160px;
 }
 
 .text3 {
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(0, 0%, 100%); 
     position: absolute;
-    left: 40px;
-    top: 250px;
+    left: 20px;
+    top: 220px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list li {
+    margin: 20px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.6);
 }
 
 .image {
