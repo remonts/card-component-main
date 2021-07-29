@@ -67,15 +67,24 @@ body {
     color: hsla(0, 0%, 100%, 0.6);
 }
 
-.image {
+.image-filter {
+    background: hsl(277, 64%, 61%);
     width: 450px;
     height: 350px;
-    background-image: radial-gradient(rgba(0,0,0,0.1), hsl(277, 64%, 61%)), url(images/image-header-desktop.jpg);
     background-size: cover;
     position: absolute;
     top: 0;
     right: 0;
     border-radius: 0 5px 5px 0;
+}
+
+.image-filter img {
+    border-radius: 0 5px 5px 0;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;
+    width: 450px;
+    height: 350px;
 }
 
 /*
