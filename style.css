@@ -87,6 +87,65 @@ body {
     height: 350px;
 }
 
+@media (max-width: 375px) {
+
+    .retangle {
+        font-family: 'Inter', sans-serif;
+        width: 345px;
+        height: 800px;
+        background: hsl(244, 38%, 16%);
+        position: relative;
+        left: 15px;
+        top: 55px;
+        border-radius: 5px;
+    }
+    
+    .text1 {
+        color: hsl(0, 0%, 100%); 
+        font-size: 15px;
+        position: absolute;
+        left: 20px;
+        top: 400px;
+    }
+
+    .text2 {
+        font-family: 'Lexend Deca', sans-serif;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 12px;
+        position: absolute;
+        left: 20px;
+        top: 500px;
+    }
+
+    .text3 {
+        font-family: 'Lexend Deca', sans-serif;
+        color: hsl(0, 0%, 100%); 
+        position: absolute;
+        left: 0;
+        top: 600px;
+    }
+
+    .image-filter {
+        background: hsl(277, 64%, 61%);
+        width: 345px;
+        /* height: 500px; */
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .image-filter img {
+        border-radius: 5px 5px 0 0;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        opacity: 0.5;
+        width: 345px;
+        /* height: 500px; */
+    }
+}
+
 /*
 .image {
     position: absolute;
