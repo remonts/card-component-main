@@ -23,7 +23,9 @@ body {
     font-size: 15px;
     position: absolute;
     left: 40px;
+    right: 500px;
     top: 50px;
+    text-align: left;
 }
 
 .violet {
@@ -36,6 +38,7 @@ body {
     font-size: 12px;
     position: absolute;
     left: 40px;
+    right: 550px;
     top: 160px;
 }
 
@@ -56,6 +59,7 @@ body {
 .list li {
     margin: 20px;
 }
+
 
 .title {
     font-size: 25px;
@@ -104,25 +108,45 @@ body {
         color: hsl(0, 0%, 100%); 
         font-size: 15px;
         position: absolute;
-        left: 20px;
-        top: 400px;
+        left: 30px;
+        right: 30px;
+        top: 365px;
+        text-align: center;
     }
 
     .text2 {
         font-family: 'Lexend Deca', sans-serif;
         color: hsla(0, 0%, 100%, 0.75);
-        font-size: 12px;
+        font-size: 15px;
         position: absolute;
-        left: 20px;
-        top: 500px;
+        left: 60px;
+        right: 60px;
+        top: 495px;
+        text-align: center;
     }
 
     .text3 {
         font-family: 'Lexend Deca', sans-serif;
         color: hsl(0, 0%, 100%); 
         position: absolute;
-        left: 0;
-        top: 600px;
+        left: 115px;
+        top: 590px;
+    }
+
+    .list {
+        list-style: none;
+        display: inline;
+    }
+
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        position: absolute;
+    }
+    
+    .subtitle {
+        font-size: 11px;
+        color: hsla(0, 0%, 100%, 0.6);
     }
 
     .image-filter {
